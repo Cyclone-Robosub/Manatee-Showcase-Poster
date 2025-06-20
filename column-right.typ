@@ -1,4 +1,4 @@
-#import "@local/oasis-align:0.2.0": *
+#import "@preview/oasis-align:0.2.0": *
 #set image(width: 100%)
 
 = Electrical Systems
