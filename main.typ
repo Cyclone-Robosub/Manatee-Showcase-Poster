@@ -29,7 +29,7 @@
     footer: [
       #set align(horizon)
       #h(1fr)
-      #text(white, [2025/06/05])
+      #text(white, [2026/06/04])
       #place(
         horizon + left, 
         dx: -.3in,
@@ -132,8 +132,8 @@
     center, 
     stack(
       spacing: .7em,
-      [*Leadership:* #list(leadership)],
-      [*Advisors:* #list(advisors)],
+      text(.9em)[#list(leadership)],
+      text(.9em)[*Advisors:* #list(advisors)],
     )
   )
   v(.9em)

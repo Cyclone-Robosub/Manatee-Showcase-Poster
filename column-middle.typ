@@ -1,33 +1,28 @@
 #import "@preview/oasis-align:0.2.0": * 
 #set image(width: 100%)
 
-= Software Controls
-The vehicle relies on a combination of sensors to determine its depth, heading, and position within the pool. All data and commands are sent over a ROS network and mission planning is handled by an executive control algorithm written in C++.
-#figure(
-  image("graphics/controls-flowchart.svg", width: 100%),
-  caption: [Software Structure Across All Hardware]
-)
+= Sensors and Controls
+The vehicle relies on a combination of sensors to determine its depth, heading, and position within the pool. A Waterlinked A50 DVL employs a 4-beam sonar system to determine the vehicle's velocity relative to the pool bottom. A sensor fusion algorithm combines velocity data from the DVL and acceleration data from an onboard IntertialSense IMU to estimate the vehicle's position. 
 
-= Dynamics Modeling
-The control scheme is built in MATLAB Simulink which generates trajectories and regulates PID feedback based on a vehicle dynamics model and waypoints. The model accounts for the AUV's 6-axes of freedom, buoyancy, drag, and vectored thruster configuration. The parameters are measured and validated based on IMU data collected during underwater testing.
+All sensor data and vehicle commands are sent over ROS2 which integrates directly with a C-code generated controller. The controller, built in MATLAB Simulink, uses a 6-axis, cascaded PID feedback system to navigate the vehicle to desired waypoints. The controller also has the ability to incorporate position estimates from the stereo vision system to refine its position estimates.
 
 #figure(
-  image("graphics/controller-plant.svg", width: 95%),
-  caption: [Vehicle Dynamics Model and Control Loop]
+  image(
+    "graphics/controller-plant.svg", 
+    // width: 100%
+  ),
+  // caption: [Software Structure Across All Hardware]
 )
 
-#v(-1em)
-= Vision
-#grid(
-  columns: (1fr, 11in),
-// #oasis-align(
-  // swap: true, 
-  // int-dir: -1,
-  // int-frac: .32,
-  [
-    Two cameras provide video feeds, which are processed by a YOLO vision model to identify objects of significance. The model is on team-gathered image-data of game elements such as the path found in @path in pools.Identifying objects along the course help the robot track its position within the pool.
-  ],
-  figure(
-    image("images/vision-model.jpg"),
-    caption: [Object Recognition]),
+= Software Architecture
+The robot's software architecture is broken up in a way that allows the vehicle to operate in different modes depending on the use case and test setup. For manual control, PS5 controller inputs are mapped to basic vehicle maneuvers. For testing, the software architecture allows for a hardware in the loop setup where a laptop, running MATLAB, can be inserted in place of a C-code generated controller, allowing for on-the-fly controller tuning and adjustments. 
+
+#figure(
+  image(
+    "graphics/sys-arch.drawio.pdf", 
+    width: 100%
+  ),
+  // caption: [Software System Architecture]
 )
+
+For competition runs, the vehicle parses a mission file which defines the maneuvers, actions, and waypoints the vehicle must complete. These goals are interpreted and the controller maneuvers the vehicle accordingly. LED strips indicate the vehicle's state and a heartbeat system allows the vehicle to abort or  recover in the event of system interruptions. 
