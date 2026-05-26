@@ -74,7 +74,7 @@
   show heading.where(level: 1): it => {
     set par(leading: .5em)
     set text(60pt, weight: "semibold")
-    v(-.5em)
+    v(-.3em)
     block(it.body)
   }
   
@@ -100,7 +100,7 @@
     text(
       fill: luma(40%),
       weight: 700, 
-      [Station 173]
+      [Station 68]
     )
   ) 
 
@@ -132,7 +132,7 @@
     center, 
     stack(
       spacing: .7em,
-      text(.9em)[#list(leadership)],
+      text(.9em)[*Leadership:* #list(leadership)],
       text(.9em)[*Advisors:* #list(advisors)],
     )
   )

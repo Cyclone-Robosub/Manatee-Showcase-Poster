@@ -1,24 +1,194 @@
 [
-    {"name": "Aishwarya  Tawade", "linkedin": ""},
-    {"name": "Albert Zheng", "linkedin": ""},
-    {"name": "Alice Roy", "linkedin": ""},
-    {"name": "Alex Zamora", "linkedin": ""},
-    {"name": "Andrew Li", "linkedin": ""},
-    {"name": "Brandon Santamaria", "linkedin": ""},
-    {"name": "Danny Kwong", "linkedin": "https://www.linkedin.com/in/danny-kwong-kcw/"},
-    {"name": "Hannah Kench", "linkedin": ""},
-    {"name": "Hunter Ward", "linkedin": ""},
-    {"name": "Josh Cook", "linkedin": ""},
-    {"name": "Kaitlyn Hahn", "linkedin": "https://www.linkedin.com/in/kaitlyn-hahn/"},
-    {"name": "Kekoa Olive", "linkedin": "https://www.linkedin.com/in/kekoa-olive-5a6bb9315/"},
-    {"name": "Kory Haydon", "linkedin": ""},
-    {"name": "Lemar Argand", "linkedin": "https://www.linkedin.com/in/lemar-argand-8a16822a4/"},
-    {"name": "Naia Dalal", "linkedin": "https://www.linkedin.com/in/naia-dalal-6970641bb/"},
-    {"name": "Nathaniel Fregoso", "linkedin": ""},
-    {"name": "Ruby Stanton", "linkedin": ""},
-    {"name": "Ryan Mathur", "linkedin": "https://www.linkedin.com/in/ryanmathur/"},
-    {"name": "Sawyer Morgan", "linkedin": "None"},
-    {"name": "Sherry Lei", "linkedin": ""},
-    {"name": "Tanishq Dwivedi", "linkedin": ""},
-    {"name": "William Barber", "linkedin": "https://www.linkedin.com/in/william-barber-3a257a315/"}
+  {
+    "name": "Aishwarya  Tawade ",
+    "linkedin": "https://www.linkedin.com/in/aishwarya-tawade-539a6138a"
+  },
+  {
+    "name": "Albert Vo",
+    "linkedin": ""
+  },
+  {
+    "name": "Alexander (Alex) Chen",
+    "linkedin": "https://www.linkedin.com/in/alx-chen/"
+  },
+  {
+    "name": "Andrew Li",
+    "linkedin": ""
+  },
+  {
+    "name": "Andrew Ngo",
+    "linkedin": ""
+  },
+  {
+    "name": "Andrii (Andrew) Hurzhyi",
+    "linkedin": "https://www.linkedin.com/in/andriihurzhyi"
+  },
+  {
+    "name": "Anirudh Yanamandra",
+    "linkedin": ""
+  },
+  {
+    "name": "Anthony Yan",
+    "linkedin": "https://www.linkedin.com/in/anthony-yan64/"
+  },
+  {
+    "name": "Anya Dhillon",
+    "linkedin": ""
+  },
+  {
+    "name": "Bryan  Lei",
+    "linkedin": ""
+  },
+  {
+    "name": "Calen Everage",
+    "linkedin": "https://www.linkedin.com/in/calen-everage-750a10297/"
+  },
+  {
+    "name": "Declan Whitlock",
+    "linkedin": ""
+  },
+  {
+    "name": "Devansh Katiyar",
+    "linkedin": "https://www.linkedin.com/in/devansh-katiyar/"
+  },
+  {
+    "name": "Diego Yu Huang",
+    "linkedin": ""
+  },
+  {
+    "name": "Divyansh Singh",
+    "linkedin": ""
+  },
+  {
+    "name": "Elton  Hoac",
+    "linkedin": "https://www.linkedin.com/in/eltonhoac/"
+  },
+  {
+    "name": "Frank Faulkner",
+    "linkedin": ""
+  },
+  {
+    "name": "Grant Judkins",
+    "linkedin": ""
+  },
+  {
+    "name": "Hannah Kench",
+    "linkedin": "https://www.linkedin.com/in/hannahkench"
+  },
+  {
+    "name": "Ian Hsu",
+    "linkedin": ""
+  },
+  {
+    "name": "Isa Khalak",
+    "linkedin": "https://www.linkedin.com/in/isa-khalak-ba1804264"
+  },
+  {
+    "name": "Isabella Mo",
+    "linkedin": "https://www.linkedin.com/in/isabella-mo/"
+  },
+  {
+    "name": "Issac  Mooc",
+    "linkedin": ""
+  },
+  {
+    "name": "Jason Kai",
+    "linkedin": ""
+  },
+  {
+    "name": "Jingrui (Sunny) Wang",
+    "linkedin": ""
+  },
+  {
+    "name": "Keymora Panaligan ",
+    "linkedin": "https://www.linkedin.com/in/keymora-panaligan/"
+  },
+  {
+    "name": "Kiela Luke",
+    "linkedin": ""
+  },
+  {
+    "name": "Krish  Shah",
+    "linkedin": ""
+  },
+  {
+    "name": "Lauren Mizerak-Mohun",
+    "linkedin": "https://www.linkedin.com/in/lauren-mizmoh-662036323"
+  },
+  {
+    "name": "Liam Multhaup",
+    "linkedin": ""
+  },
+  {
+    "name": "Logan Wong",
+    "linkedin": ""
+  },
+  {
+    "name": "Mae Ngo",
+    "linkedin": "https://www.linkedin.com/in/mae-ngo-788281332/"
+  },
+  {
+    "name": "Marco Chen",
+    "linkedin": ""
+  },
+  {
+    "name": "Mason Lafleur",
+    "linkedin": ""
+  },
+  {
+    "name": "Matthew Lin",
+    "linkedin": ""
+  },
+  {
+    "name": "Maya Malinowski",
+    "linkedin": ""
+  },
+  {
+    "name": "Minh  Ho",
+    "linkedin": "https://www.linkedin.com/in/minhhoucd"
+  },
+  {
+    "name": "Naia Dalal",
+    "linkedin": ""
+  },
+  {
+    "name": "Quyen Tan",
+    "linkedin": ""
+  },
+  {
+    "name": "Rajeev Raghuram",
+    "linkedin": ""
+  },
+  {
+    "name": "Ruby Stanton",
+    "linkedin": ""
+  },
+  {
+    "name": "Sherry  Lei",
+    "linkedin": "https://www.linkedin.com/in/sherry-lei-610225355"
+  },
+  {
+    "name": "Stanley Jiang",
+    "linkedin": ""
+  },
+  {
+    "name": "Tanishq Dwivedi",
+    "linkedin": ""
+  },
+  {
+    "name": "Tristan Najarro",
+    "linkedin": ""
+  },
+  {
+    "name": "Wingyan (Navia) Yu",
+    "linkedin": ""
+  },
+  {
+    "name": "Winter Chan",
+    "linkedin": ""
+  },
+  {
+    "name": "Zoe Chan",
+    "linkedin": ""
+  }
 ]

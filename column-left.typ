@@ -8,7 +8,7 @@
   int-frac: .4,
   figure(
     image("images/Team Photo 2026.jpg"),
-    // caption: [2026 Team Photo]
+    caption: [2026 Team Photo]
   ),
   [
     Cyclone RoboSub, founded in 2023, is an engineering student design team at UC Davis developing an autonomous underwater vehicle (AUV). Our interdisciplinary team of 50+ students is organized into three divisions and six sub-teams, each tackling different aspects of this project.
@@ -32,13 +32,19 @@ Our chosen thruster configuration allows for six degrees of freedom while its sy
 #v(-1em)
 
 #figure(
-  image(
-    "graphics/annotated-main-assembly.svg",
-    // width:75%
-  ), 
-  // caption: [Structural CAD of Robot (Made in Onshape)]
+  block(
+    clip: true, 
+    height: 7.4in,
+    image(
+      "graphics/annotated-main-assembly.svg",
+      width:100%
+    ), 
+    
+  ),
+  caption: [Structural CAD of Robot (Made in Onshape)]
 )
 
+#v(-1em)
 = Vision
 // #grid(
 //   columns: (1fr, 6in),
@@ -46,7 +52,7 @@ Our chosen thruster configuration allows for six degrees of freedom while its sy
   // swap: true, 
   // int-dir: -1,
   // int-frac: .4,
-  force-frac: .5,
+  force-frac: .53,
   [
     Two cameras provide video feeds, which are processed by a YOLO vision model to identify objects within the pool and assign position estimates. These estimates are used to inform vehicle navigation and are constantly updated. 
   ],[
@@ -60,10 +66,10 @@ Our chosen thruster configuration allows for six degrees of freedom while its sy
     image(
       "images/Unreal Simulated Gate.png"
     ),
-    // caption: [Object Recognition]
+    caption: [Unreal simulation of competition]
   ),
     
   ]
 )
-#v(-2em)
+#v(-2.2em)
 Vision data can be simulated in Unreal Engine and passed into MATLAB Simulink to seamlessly test vision integration.

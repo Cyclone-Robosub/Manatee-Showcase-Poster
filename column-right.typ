@@ -10,16 +10,16 @@ The vehicle is powered by a 4s Lipo battery and features custom PCBs for battery
   block(
     clip: true, 
     width: 100%,
-    height: 6.5in,
+    height: 6in,
     image(
       "graphics/electrical-diagram.pdf",
-      width: 115%
+      width: 110%
     ),
-  )
-  // caption: [Electrical Diagram],
+  ),
+  caption: [Complete Electrical Diagram],
 )
 
-
+#v(-.5em)
 = Research 
 #oasis-align( 
   // int-frac: .78,
@@ -32,7 +32,7 @@ The vehicle is powered by a 4s Lipo battery and features custom PCBs for battery
     // #v(-0.65em)
     #figure(
       image("images/submerged research module.JPG"),
-      // caption: [Sensor Modu],
+      caption: [Sensor Module],
     )
   ]
 )
