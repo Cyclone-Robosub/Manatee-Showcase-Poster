@@ -45,18 +45,19 @@ Most recently, Cyclone RoboSub partnered with the UC Davis Tahoe Environmental R
       "images/Manny in Tahoe.jpeg", 
       // width: 150%
     ), 
-    // caption: [Submerged Robot \ ~]
+    caption: [Submerged Robot at Lake Tahoe \ ~]
   ),
   figure(
     image(
       "images/Tahoe Deployment.jpg", 
       // width: 90%
     ), 
-    // caption: [Incline Village Deployment]
+    caption: [Incline Village \ Deployment]
   ),
 )
 
 
+#v(-1em)
 = Acknowledgements
 #set text(.7em)
 

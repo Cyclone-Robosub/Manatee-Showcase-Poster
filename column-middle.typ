@@ -11,7 +11,7 @@ All sensor data and vehicle commands are sent over ROS2 which integrates directl
     "graphics/robosub_controls.drawio.pdf" 
     // width: 100%
   ),
-  caption: [Software Structure Across All Hardware]
+  caption: [Simulink Controller Diagram]
 )
 
 #v(-.2em)
